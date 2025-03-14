@@ -1,0 +1,18 @@
+{
+    "name": "ghazniali95/shopify-graphql-sdk",
+    "description": "A laravel package for interating with Shopify GraphQL api's easily",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Ghazniali95\\ShopifyGraphqlSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghazni Ali"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
