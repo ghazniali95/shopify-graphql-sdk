@@ -1,6 +1,6 @@
 {
     "name": "ghazniali95/shopify-graphql-sdk",
-    "description": "A laravel package for interating with Shopify GraphQL api's easily",
+    "description": "A laravel package for interacting with Shopify GraphQL apis easily",
     "type": "library",
     "license": "mit",
     "autoload": {
@@ -14,5 +14,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ghazniali95\\ShopifyGraphqlSdk\\ShopifyGraphQLSDKServiceProvider"
+            ]
+        }
+    }
 }
